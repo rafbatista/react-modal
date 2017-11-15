@@ -1,0 +1,36 @@
+{
+  "name": "react-modal",
+  "version": "1.0.0",
+  "description": "Creating modals using React",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "browserify client/index.js -t babelify -o public/bundle.js",
+    "bundle:watch": "watchify client/index.js -vd -t babelify -o public/bundle.js",
+    "test": "echo \"Error: no test specified\" && exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafbatista/react-modal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafbatista/react-modal/issues"
+  },
+  "homepage": "https://github.com/rafbatista/react-modal#readme",
+  "dependencies": {
+    "babel-core": "6.26.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "6.26.0",
+    "babelify": "8.0.0",
+    "browserify": "14.5.0",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "styled-components": "^2.2.3",
+    "watchify": "3.9.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "watchify": "^3.9.0"
+  }
+}
